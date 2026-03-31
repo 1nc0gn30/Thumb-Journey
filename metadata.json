@@ -1,0 +1,13 @@
+{
+  "name": "Thumb Journey",
+  "shortName": "Thumb Journey",
+  "description": "A mobile-first immersive listening experience where press, motion, and parallax turn iconic speeches into tactile journeys.",
+  "domain": "nealfrazier.tech",
+  "subdomain": "thumb-journey",
+  "siteUrl": "https://thumb-journey.nealfrazier.tech",
+  "canonicalUrl": "https://thumb-journey.nealfrazier.tech",
+  "metaImage": "/og-image.png",
+  "metaImageAlt": "Thumb Journey brand artwork with a cinematic midnight gradient and tactile mobile interface motif.",
+  "themeColor": "#050816",
+  "requestFramePermissions": []
+}
