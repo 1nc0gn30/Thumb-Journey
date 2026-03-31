@@ -1,0 +1,57 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="122" y1="42" x2="1098" y2="610" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#121B34" />
+      <stop offset="0.55" stop-color="#0A1020" />
+      <stop offset="1" stop-color="#060A14" />
+    </linearGradient>
+    <linearGradient id="flareA" x1="194" y1="141" x2="495" y2="397" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#2D7CFF" stop-opacity="0.88" />
+      <stop offset="1" stop-color="#2D7CFF" stop-opacity="0" />
+    </linearGradient>
+    <linearGradient id="flareB" x1="826" y1="246" x2="1040" y2="529" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#15E1C6" stop-opacity="0.65" />
+      <stop offset="1" stop-color="#15E1C6" stop-opacity="0" />
+    </linearGradient>
+    <linearGradient id="strokeAccent" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#5BA4FF" />
+      <stop offset="1" stop-color="#66FFE9" />
+    </linearGradient>
+    <filter id="blurStrong" x="-120" y="-120" width="1440" height="870" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feGaussianBlur stdDeviation="52" />
+    </filter>
+    <filter id="cardShadow" x="109" y="82" width="982" height="466" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="22" stdDeviation="22" flood-color="#000000" flood-opacity="0.45" />
+    </filter>
+  </defs>
+
+  <rect width="1200" height="630" fill="url(#bg)" />
+
+  <g filter="url(#blurStrong)">
+    <ellipse cx="360" cy="220" rx="210" ry="150" fill="url(#flareA)" />
+    <ellipse cx="930" cy="420" rx="220" ry="160" fill="url(#flareB)" />
+  </g>
+
+  <rect x="140" y="114" width="920" height="402" rx="38" fill="#0A0F1E" fill-opacity="0.62" stroke="url(#strokeAccent)" stroke-opacity="0.48" filter="url(#cardShadow)" />
+
+  <g opacity="0.9">
+    <rect x="198" y="190" width="92" height="156" rx="24" fill="#0F1932" stroke="#4E87E0" stroke-opacity="0.75" />
+    <rect x="221" y="218" width="46" height="101" rx="15" fill="#0A1225" stroke="#89B7FF" stroke-opacity="0.65" />
+    <rect x="236" y="252" width="16" height="33" rx="8" fill="#D3EAFF" fill-opacity="0.9" />
+    <circle cx="335" cy="268" r="9" fill="#67A8FF" />
+    <circle cx="367" cy="268" r="9" fill="#67A8FF" fill-opacity="0.8" />
+    <circle cx="399" cy="268" r="9" fill="#67A8FF" fill-opacity="0.6" />
+  </g>
+
+  <text x="456" y="262" fill="#E9F3FF" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="64" font-weight="700" letter-spacing="2">THUMB JOURNEY</text>
+  <text x="456" y="314" fill="#88A7D2" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="26" font-weight="500" letter-spacing="1.8">IMMERSIVE MOBILE AUDIO EXPERIENCE</text>
+
+  <rect x="456" y="352" width="420" height="2" rx="1" fill="url(#strokeAccent)" fill-opacity="0.9" />
+
+  <text x="456" y="406" fill="#CFE3FF" fill-opacity="0.95" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="28" font-weight="500">
+    Hold to enter. Release to return.
+  </text>
+  <text x="456" y="447" fill="#8FB4D9" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="22" font-weight="400">
+    thumb-journey.nealfrazier.tech
+  </text>
+</svg>

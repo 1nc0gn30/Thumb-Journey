@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://thumb-journey.nealfrazier.tech/sitemap.xml
