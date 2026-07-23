@@ -1,3 +1,61 @@
+# Thumb-Journey
+
+Thumb Journey is a mobile-first cinematic audio experience where hold, motion, and parallax transform iconic speeches into tactile rituals.
+
+## Overview
+Thumb Journey is a mobile-first cinematic audio experience where hold, motion, and parallax transform iconic speeches into tactile rituals.
+
+## Tech Stack
+- React
+- Vite
+- Express
+- Netlify (deployed)
+
+## Project Structure
+```
+Thumb-Journey/
+  - public
+  - scripts
+  - src
+  (37 files total)
+```
+
+## Getting Started
+
+### Prerequisites
+- Node.js (v18+)
+- npm or yarn
+
+### Installation
+```bash
+git clone https://github.com/1nc0gn30/Thumb-Journey.git
+cd Thumb-Journey
+npm install
+```
+
+### Development
+```bash
+npm run dev
+```
+
+### Build
+```bash
+npm run build
+```
+
+### Available Scripts
+  npm run dev - vite --port=3000 --host=0.0.0.0
+  npm run build - vite build
+  npm run preview - vite preview
+  npm run clean - rm -rf dist
+  npm run lint - tsc --noEmit
+  npm run transcribe:audio - tsx scripts/transcribe-audio.ts
+  npm run detect:spikes - tsx scripts/detect-spikes.ts
+
+## Original README
+<details>
+<summary>Click to expand original README</summary>
+
 # Thumb Journey
 
 Thumb Journey is a mobile-first React experience where users hold their thumb on-screen to enter an immersive audio state. Releasing the press exits the journey. Visuals, transcript beats, and motion are synchronized to speech playback.
@@ -94,3 +152,29 @@ Metadata is maintained in both:
 
 Keep canonical URL, title, and `og:image` aligned when changing branding or deployment domains.
 # Thumb-Journey
+
+</details>
+
+## TODO / Roadmap
+- [ ] Add unit tests
+- [ ] Add LICENSE file
+- [ ] Add Dockerfile for containerized deployment
+- [ ] Consider adding Tailwind CSS
+- [ ] Add CI/CD pipeline
+- [ ] Add contribution guidelines (CONTRIBUTING.md)
+- [ ] Improve error handling and edge cases
+- [ ] Add environment variable documentation
+- [ ] Update dependencies to latest versions
+- [ ] Add code comments and inline documentation
+
+## Deployment
+This project is deployed on Netlify. See netlify.toml for configuration.
+
+## Author
+**Neal Frazier** - [@AshAmplifies](https://github.com/1nc0gn30)
+
+## Links
+- GitHub: https://github.com/1nc0gn30/Thumb-Journey
+
+---
+*This README was enhanced as part of the neals-projects-2026 batch update.*
