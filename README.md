@@ -1,17 +1,29 @@
-# Thumb-Journey
+<!-- xonettn -->
+<div align="center">
+
+# ⚛️ Thumb Journey
 
 Thumb Journey is a mobile-first cinematic audio experience where hold, motion, and parallax transform iconic speeches into tactile rituals.
 
-## Overview
+
+![React](https://img.shields.io/badge/React-20232A?logo=react&logoColor=61DAFB) ![Vite](https://img.shields.io/badge/Vite-646CFF?logo=vite&logoColor=white) ![Express](https://img.shields.io/badge/Express-000000?logo=express&logoColor=white) ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white) ![Netlify](https://img.shields.io/badge/Netlify-00C7B7?logo=netlify&logoColor=white)
+
+![Deploy](https://img.shields.io/badge/Deployed-Netlify-00C7B7?logo=netlify&logoColor=white)
+
+</div>
+
+---
+
+## 📋 Overview
 Thumb Journey is a mobile-first cinematic audio experience where hold, motion, and parallax transform iconic speeches into tactile rituals.
 
-## Tech Stack
+## 📦 Tech Stack
 - React
 - Vite
 - Express
 - Netlify (deployed)
 
-## Project Structure
+## 🗂️ Project Structure
 ```
 Thumb-Journey/
   - public
@@ -20,30 +32,30 @@ Thumb-Journey/
   (37 files total)
 ```
 
-## Getting Started
+## 🚀 Getting Started
 
-### Prerequisites
+### 📋 Prerequisites
 - Node.js (v18+)
 - npm or yarn
 
-### Installation
+### 📦 Installation
 ```bash
 git clone https://github.com/1nc0gn30/Thumb-Journey.git
 cd Thumb-Journey
 npm install
 ```
 
-### Development
+### 💻 Development
 ```bash
 npm run dev
 ```
 
-### Build
+### 🔨 Build
 ```bash
 npm run build
 ```
 
-### Available Scripts
+### ⚙️ Available Scripts
   npm run dev - vite --port=3000 --host=0.0.0.0
   npm run build - vite build
   npm run preview - vite preview
@@ -52,7 +64,7 @@ npm run build
   npm run transcribe:audio - tsx scripts/transcribe-audio.ts
   npm run detect:spikes - tsx scripts/detect-spikes.ts
 
-## Original README
+## 📂 Original README
 <details>
 <summary>Click to expand original README</summary>
 
@@ -67,7 +79,7 @@ Thumb Journey is a mobile-first React experience where users hold their thumb on
 - Progress persistence in `localStorage`.
 - Multiple speeches with selectable post-completion replay.
 
-## Tech Stack
+## 📦 Tech Stack
 
 - React 19 + TypeScript
 - Vite 6
@@ -76,12 +88,12 @@ Thumb Journey is a mobile-first React experience where users hold their thumb on
 
 ## Quick Start
 
-### Prerequisites
+### 📋 Prerequisites
 
 - Node.js 20+ (recommended)
 - npm
 
-### Install and run
+### 📦 Install and run
 
 ```bash
 npm install
@@ -90,14 +102,14 @@ npm run dev
 
 App runs on `http://localhost:3000`.
 
-### Production build
+### 🔨 Production build
 
 ```bash
 npm run build
 npm run preview
 ```
 
-## Available Scripts
+## ⚙️ Available Scripts
 
 - `npm run dev` starts Vite dev server on port `3000`.
 - `npm run build` creates production output in `dist/`.
@@ -125,7 +137,7 @@ Template: [`.env.example`](/home/neo/Downloads/thumb-journey/.env.example)
 - `Reward`: shown after a speech completes.
 - `Selection`: available after completing all journeys.
 
-## Project Structure
+## 🗂️ Project Structure
 
 - [`src/`](/home/neo/Downloads/thumb-journey/src): app code.
 - [`src/components/`](/home/neo/Downloads/thumb-journey/src/components): UI and experience screens.
@@ -143,7 +155,7 @@ To add or adjust a journey:
 3. Update transcript beat timing/content in [`src/data/transcriptBeats.ts`](/home/neo/Downloads/thumb-journey/src/data/transcriptBeats.ts).
 4. Validate on mobile viewport and run `npm run build`.
 
-## Metadata and SEO
+## 🔍 Metadata and SEO
 
 Metadata is maintained in both:
 
@@ -155,7 +167,7 @@ Keep canonical URL, title, and `og:image` aligned when changing branding or depl
 
 </details>
 
-## TODO / Roadmap
+## 📝 TODO / Roadmap
 - [ ] Add unit tests
 - [ ] Add LICENSE file
 - [ ] Add Dockerfile for containerized deployment
@@ -167,14 +179,22 @@ Keep canonical URL, title, and `og:image` aligned when changing branding or depl
 - [ ] Update dependencies to latest versions
 - [ ] Add code comments and inline documentation
 
-## Deployment
+## 🚀 Deployment
 This project is deployed on Netlify. See netlify.toml for configuration.
 
-## Author
+## 👤 Author
 **Neal Frazier** - [@AshAmplifies](https://github.com/1nc0gn30)
 
-## Links
+## 🔗 Links
 - GitHub: https://github.com/1nc0gn30/Thumb-Journey
 
 ---
 *This README was enhanced as part of the neals-projects-2026 batch update.*
+
+---
+
+<div align="center">
+
+**[xonettn]** · Built by [Neal Frazier](https://github.com/1nc0gn30) · [@AshAmplifies](https://twitter.com/AshAmplifies)
+
+</div>
